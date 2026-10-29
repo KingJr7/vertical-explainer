@@ -1802,109 +1802,109 @@
     {
       "name": "sub-hit",
       "frame": 68,
-      "gainDb": -7,
+      "gainDb": -3,
       "pan": 0
     },
     {
       "name": "whoosh-soft",
       "frame": 88,
-      "gainDb": -16,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "whoosh-soft",
       "frame": 165,
-      "gainDb": -18,
+      "gainDb": -12,
       "pan": 0
     },
     {
       "name": "whoosh-soft",
       "frame": 254,
-      "gainDb": -15,
+      "gainDb": -12,
       "pan": 0
     },
     {
       "name": "tick",
       "frame": 324,
-      "gainDb": -16,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "whoosh-hard",
       "frame": 381,
-      "gainDb": -12,
+      "gainDb": -8,
       "pan": 0
     },
     {
       "name": "tick",
       "frame": 534,
-      "gainDb": -18,
+      "gainDb": -12,
       "pan": 0
     },
     {
       "name": "riser-reverse",
       "frame": 574,
-      "gainDb": -12,
+      "gainDb": -8,
       "pan": 0
     },
     {
       "name": "downlifter",
       "frame": 640,
-      "gainDb": -14,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "riser-reverse",
       "frame": 708,
-      "gainDb": -13,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "tick",
       "frame": 829,
-      "gainDb": -10,
+      "gainDb": -7,
       "pan": 0
     },
     {
       "name": "sub-hit",
       "frame": 894,
-      "gainDb": -6,
+      "gainDb": -3,
       "pan": 0
     },
     {
       "name": "shimmer",
       "frame": 894,
-      "gainDb": -16,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "whoosh-soft",
       "frame": 913,
-      "gainDb": -18,
+      "gainDb": -12,
       "pan": 0
     },
     {
       "name": "downlifter",
       "frame": 987,
-      "gainDb": -16,
+      "gainDb": -10,
       "pan": 0
     },
     {
       "name": "sub-hit",
       "frame": 1076,
-      "gainDb": -10,
+      "gainDb": -7,
       "pan": 0
     },
     {
       "name": "tick",
       "frame": 1118,
-      "gainDb": -12,
+      "gainDb": -8,
       "pan": 0
     },
     {
       "name": "whoosh-hard",
       "frame": 892,
-      "gainDb": -8,
+      "gainDb": -6,
       "pan": 0
     }
   ]
