@@ -1,0 +1,1905 @@
+{
+  "id": "001-silence",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 1202,
+  "accent": "#FF4D2E",
+  "scenes": [
+    {
+      "id": "s1",
+      "startFrame": 0,
+      "durationInFrames": 102,
+      "text": "Le moment le plus angoissant d'un film, c'est souvent le silence.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": "silence",
+      "invert": false
+    },
+    {
+      "id": "s2",
+      "startFrame": 88,
+      "durationInFrames": 91,
+      "text": "Pas la musique. Pas le cri. Le vide.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "handoff",
+        "dir": "left"
+      },
+      "accent": "vide",
+      "invert": false
+    },
+    {
+      "id": "s3",
+      "startFrame": 165,
+      "durationInFrames": 103,
+      "text": "Un bruit constant devient un fond, et ton cerveau l'ignore.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s3.mp4",
+        "kenBurns": "left"
+      },
+      "enter": {
+        "kind": "handoff",
+        "dir": "left"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s4",
+      "startFrame": 254,
+      "durationInFrames": 84,
+      "text": "Coupe ce fond, et il cherche ce qui manque.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s4.mp4",
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s5",
+      "startFrame": 324,
+      "durationInFrames": 71,
+      "text": "C'est là qu'il commence à imaginer.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "whip",
+        "dir": "left"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s6",
+      "startFrame": 381,
+      "durationInFrames": 113,
+      "text": "Une porte. Un pas. Quelque chose derrière toi.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "whip",
+        "dir": "left"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s7",
+      "startFrame": 480,
+      "durationInFrames": 108,
+      "text": "Le silence ne montre rien. Ton cerveau fait le travail.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s7.mp4",
+        "kenBurns": "left"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "handoff",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s8",
+      "startFrame": 574,
+      "durationInFrames": 80,
+      "text": "Mais il ne marche que s'il est préparé.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s8.mp4",
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "handoff",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s9",
+      "startFrame": 640,
+      "durationInFrames": 82,
+      "text": "Trop de vide, et l'oreille décroche.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s9.mp4",
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s10",
+      "startFrame": 708,
+      "durationInFrames": 104,
+      "text": "Il faut du bruit avant, pour que le silence existe.",
+      "broll": {
+        "kind": "video",
+        "src": "content/001-silence/broll/s10.mp4",
+        "kenBurns": "out"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": "silence",
+      "invert": false
+    },
+    {
+      "id": "s11",
+      "startFrame": 798,
+      "durationInFrames": 69,
+      "text": "Puis un seul son suffit.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": "son",
+      "invert": false
+    },
+    {
+      "id": "s12",
+      "startFrame": 853,
+      "durationInFrames": 74,
+      "text": "Un craquement. Et tout bascule.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": "bascule",
+      "invert": true
+    },
+    {
+      "id": "s13",
+      "startFrame": 913,
+      "durationInFrames": 88,
+      "text": "Les meilleurs films coupent le son juste avant.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "left"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "handoff",
+        "dir": "left"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s14",
+      "startFrame": 987,
+      "durationInFrames": 77,
+      "text": "La prochaine fois, baisse le volume.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "handoff",
+        "dir": "left"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "accent": null,
+      "invert": false
+    },
+    {
+      "id": "s15",
+      "startFrame": 1050,
+      "durationInFrames": 68,
+      "text": "Tu entendras le silence arriver.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "out"
+      },
+      "enter": {
+        "kind": "push",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "handoff",
+        "dir": "up"
+      },
+      "accent": "silence",
+      "invert": false
+    },
+    {
+      "id": "s16",
+      "startFrame": 1104,
+      "durationInFrames": 98,
+      "text": "Commente silence, je t'envoie la fiche.",
+      "broll": {
+        "kind": "none",
+        "src": null,
+        "kenBurns": "in"
+      },
+      "enter": {
+        "kind": "handoff",
+        "dir": "up"
+      },
+      "exit": {
+        "kind": "push",
+        "dir": "none"
+      },
+      "accent": "silence",
+      "invert": false
+    }
+  ],
+  "captions": [
+    {
+      "startFrame": 0,
+      "endFrame": 8,
+      "words": [
+        {
+          "text": "Le",
+          "startFrame": 0,
+          "endFrame": 5
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 6,
+      "endFrame": 16,
+      "words": [
+        {
+          "text": "moment",
+          "startFrame": 6,
+          "endFrame": 13
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 13,
+      "endFrame": 18,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 13,
+          "endFrame": 15
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 17,
+      "endFrame": 24,
+      "words": [
+        {
+          "text": "plus",
+          "startFrame": 17,
+          "endFrame": 21
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 23,
+      "endFrame": 37,
+      "words": [
+        {
+          "text": "angoissant",
+          "startFrame": 23,
+          "endFrame": 34
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 34,
+      "endFrame": 41,
+      "words": [
+        {
+          "text": "d'un",
+          "startFrame": 34,
+          "endFrame": 38
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 38,
+      "endFrame": 52,
+      "words": [
+        {
+          "text": "film,",
+          "startFrame": 38,
+          "endFrame": 49
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 50,
+      "endFrame": 59,
+      "words": [
+        {
+          "text": "c'est",
+          "startFrame": 50,
+          "endFrame": 56
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 57,
+      "endFrame": 67,
+      "words": [
+        {
+          "text": "souvent",
+          "startFrame": 57,
+          "endFrame": 64
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 65,
+      "endFrame": 70,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 65,
+          "endFrame": 67
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 68,
+      "endFrame": 89,
+      "words": [
+        {
+          "text": "silence.",
+          "startFrame": 68,
+          "endFrame": 86
+        }
+      ],
+      "accent": "silence"
+    },
+    {
+      "startFrame": 91,
+      "endFrame": 98,
+      "words": [
+        {
+          "text": "Pas",
+          "startFrame": 91,
+          "endFrame": 95
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 96,
+      "endFrame": 101,
+      "words": [
+        {
+          "text": "la",
+          "startFrame": 96,
+          "endFrame": 98
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 100,
+      "endFrame": 117,
+      "words": [
+        {
+          "text": "musique.",
+          "startFrame": 100,
+          "endFrame": 114
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 117,
+      "endFrame": 125,
+      "words": [
+        {
+          "text": "Pas",
+          "startFrame": 117,
+          "endFrame": 122
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 123,
+      "endFrame": 128,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 123,
+          "endFrame": 125
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 126,
+      "endFrame": 141,
+      "words": [
+        {
+          "text": "cri.",
+          "startFrame": 126,
+          "endFrame": 138
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 142,
+      "endFrame": 149,
+      "words": [
+        {
+          "text": "Le",
+          "startFrame": 142,
+          "endFrame": 146
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 147,
+      "endFrame": 162,
+      "words": [
+        {
+          "text": "vide.",
+          "startFrame": 147,
+          "endFrame": 159
+        }
+      ],
+      "accent": "vide"
+    },
+    {
+      "startFrame": 168,
+      "endFrame": 174,
+      "words": [
+        {
+          "text": "Un",
+          "startFrame": 168,
+          "endFrame": 171
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 172,
+      "endFrame": 181,
+      "words": [
+        {
+          "text": "bruit",
+          "startFrame": 172,
+          "endFrame": 178
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 179,
+      "endFrame": 193,
+      "words": [
+        {
+          "text": "constant",
+          "startFrame": 179,
+          "endFrame": 190
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 191,
+      "endFrame": 202,
+      "words": [
+        {
+          "text": "devient",
+          "startFrame": 191,
+          "endFrame": 199
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 201,
+      "endFrame": 206,
+      "words": [
+        {
+          "text": "un",
+          "startFrame": 201,
+          "endFrame": 203
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 205,
+      "endFrame": 217,
+      "words": [
+        {
+          "text": "fond,",
+          "startFrame": 205,
+          "endFrame": 214
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 215,
+      "endFrame": 222,
+      "words": [
+        {
+          "text": "et",
+          "startFrame": 215,
+          "endFrame": 219
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 220,
+      "endFrame": 226,
+      "words": [
+        {
+          "text": "ton",
+          "startFrame": 220,
+          "endFrame": 223
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 224,
+      "endFrame": 237,
+      "words": [
+        {
+          "text": "cerveau",
+          "startFrame": 224,
+          "endFrame": 234
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 235,
+      "endFrame": 254,
+      "words": [
+        {
+          "text": "l'ignore.",
+          "startFrame": 235,
+          "endFrame": 251
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 257,
+      "endFrame": 268,
+      "words": [
+        {
+          "text": "Coupe",
+          "startFrame": 257,
+          "endFrame": 265
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 266,
+      "endFrame": 272,
+      "words": [
+        {
+          "text": "ce",
+          "startFrame": 266,
+          "endFrame": 269
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 271,
+      "endFrame": 283,
+      "words": [
+        {
+          "text": "fond,",
+          "startFrame": 271,
+          "endFrame": 280
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 285,
+      "endFrame": 291,
+      "words": [
+        {
+          "text": "et",
+          "startFrame": 285,
+          "endFrame": 288
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 289,
+      "endFrame": 295,
+      "words": [
+        {
+          "text": "il",
+          "startFrame": 289,
+          "endFrame": 292
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 294,
+      "endFrame": 304,
+      "words": [
+        {
+          "text": "cherche",
+          "startFrame": 294,
+          "endFrame": 301
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 303,
+      "endFrame": 308,
+      "words": [
+        {
+          "text": "ce",
+          "startFrame": 303,
+          "endFrame": 305
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 307,
+      "endFrame": 312,
+      "words": [
+        {
+          "text": "qui",
+          "startFrame": 307,
+          "endFrame": 309
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 311,
+      "endFrame": 326,
+      "words": [
+        {
+          "text": "manque.",
+          "startFrame": 311,
+          "endFrame": 323
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 327,
+      "endFrame": 336,
+      "words": [
+        {
+          "text": "C'est",
+          "startFrame": 327,
+          "endFrame": 333
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 334,
+      "endFrame": 339,
+      "words": [
+        {
+          "text": "là",
+          "startFrame": 334,
+          "endFrame": 336
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 338,
+      "endFrame": 345,
+      "words": [
+        {
+          "text": "qu'il",
+          "startFrame": 338,
+          "endFrame": 342
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 343,
+      "endFrame": 357,
+      "words": [
+        {
+          "text": "commence",
+          "startFrame": 343,
+          "endFrame": 354
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 354,
+      "endFrame": 358,
+      "words": [
+        {
+          "text": "à",
+          "startFrame": 354,
+          "endFrame": 355
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 357,
+      "endFrame": 379,
+      "words": [
+        {
+          "text": "imaginer.",
+          "startFrame": 357,
+          "endFrame": 376
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 384,
+      "endFrame": 393,
+      "words": [
+        {
+          "text": "Une",
+          "startFrame": 384,
+          "endFrame": 390
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 391,
+      "endFrame": 411,
+      "words": [
+        {
+          "text": "porte.",
+          "startFrame": 391,
+          "endFrame": 408
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 411,
+      "endFrame": 418,
+      "words": [
+        {
+          "text": "Un",
+          "startFrame": 411,
+          "endFrame": 415
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 417,
+      "endFrame": 430,
+      "words": [
+        {
+          "text": "pas.",
+          "startFrame": 417,
+          "endFrame": 427
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 435,
+      "endFrame": 447,
+      "words": [
+        {
+          "text": "Quelque",
+          "startFrame": 435,
+          "endFrame": 444
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 445,
+      "endFrame": 454,
+      "words": [
+        {
+          "text": "chose",
+          "startFrame": 445,
+          "endFrame": 451
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 452,
+      "endFrame": 464,
+      "words": [
+        {
+          "text": "derrière",
+          "startFrame": 452,
+          "endFrame": 461
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 461,
+      "endFrame": 476,
+      "words": [
+        {
+          "text": "toi.",
+          "startFrame": 461,
+          "endFrame": 473
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 483,
+      "endFrame": 490,
+      "words": [
+        {
+          "text": "Le",
+          "startFrame": 483,
+          "endFrame": 487
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 488,
+      "endFrame": 502,
+      "words": [
+        {
+          "text": "silence",
+          "startFrame": 488,
+          "endFrame": 499
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 500,
+      "endFrame": 505,
+      "words": [
+        {
+          "text": "ne",
+          "startFrame": 500,
+          "endFrame": 502
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 503,
+      "endFrame": 514,
+      "words": [
+        {
+          "text": "montre",
+          "startFrame": 503,
+          "endFrame": 511
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 512,
+      "endFrame": 527,
+      "words": [
+        {
+          "text": "rien.",
+          "startFrame": 512,
+          "endFrame": 524
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 530,
+      "endFrame": 538,
+      "words": [
+        {
+          "text": "Ton",
+          "startFrame": 530,
+          "endFrame": 535
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 537,
+      "endFrame": 549,
+      "words": [
+        {
+          "text": "cerveau",
+          "startFrame": 537,
+          "endFrame": 546
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 547,
+      "endFrame": 553,
+      "words": [
+        {
+          "text": "fait",
+          "startFrame": 547,
+          "endFrame": 550
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 551,
+      "endFrame": 556,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 551,
+          "endFrame": 553
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 554,
+      "endFrame": 575,
+      "words": [
+        {
+          "text": "travail.",
+          "startFrame": 554,
+          "endFrame": 572
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 577,
+      "endFrame": 585,
+      "words": [
+        {
+          "text": "Mais",
+          "startFrame": 577,
+          "endFrame": 582
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 585,
+      "endFrame": 590,
+      "words": [
+        {
+          "text": "il",
+          "startFrame": 585,
+          "endFrame": 587
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 588,
+      "endFrame": 593,
+      "words": [
+        {
+          "text": "ne",
+          "startFrame": 588,
+          "endFrame": 590
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 592,
+      "endFrame": 603,
+      "words": [
+        {
+          "text": "marche",
+          "startFrame": 592,
+          "endFrame": 600
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 602,
+      "endFrame": 609,
+      "words": [
+        {
+          "text": "que",
+          "startFrame": 602,
+          "endFrame": 606
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 607,
+      "endFrame": 615,
+      "words": [
+        {
+          "text": "s'il",
+          "startFrame": 607,
+          "endFrame": 612
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 613,
+      "endFrame": 618,
+      "words": [
+        {
+          "text": "est",
+          "startFrame": 613,
+          "endFrame": 615
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 616,
+      "endFrame": 640,
+      "words": [
+        {
+          "text": "préparé.",
+          "startFrame": 616,
+          "endFrame": 637
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 643,
+      "endFrame": 655,
+      "words": [
+        {
+          "text": "Trop",
+          "startFrame": 643,
+          "endFrame": 652
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 653,
+      "endFrame": 658,
+      "words": [
+        {
+          "text": "de",
+          "startFrame": 653,
+          "endFrame": 655
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 657,
+      "endFrame": 670,
+      "words": [
+        {
+          "text": "vide,",
+          "startFrame": 657,
+          "endFrame": 667
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 670,
+      "endFrame": 677,
+      "words": [
+        {
+          "text": "et",
+          "startFrame": 670,
+          "endFrame": 674
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 675,
+      "endFrame": 688,
+      "words": [
+        {
+          "text": "l'oreille",
+          "startFrame": 675,
+          "endFrame": 685
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 685,
+      "endFrame": 709,
+      "words": [
+        {
+          "text": "décroche.",
+          "startFrame": 685,
+          "endFrame": 706
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 711,
+      "endFrame": 718,
+      "words": [
+        {
+          "text": "Il",
+          "startFrame": 711,
+          "endFrame": 715
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 717,
+      "endFrame": 724,
+      "words": [
+        {
+          "text": "faut",
+          "startFrame": 717,
+          "endFrame": 721
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 722,
+      "endFrame": 727,
+      "words": [
+        {
+          "text": "du",
+          "startFrame": 722,
+          "endFrame": 724
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 725,
+      "endFrame": 734,
+      "words": [
+        {
+          "text": "bruit",
+          "startFrame": 725,
+          "endFrame": 731
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 732,
+      "endFrame": 747,
+      "words": [
+        {
+          "text": "avant,",
+          "startFrame": 732,
+          "endFrame": 744
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 747,
+      "endFrame": 754,
+      "words": [
+        {
+          "text": "pour",
+          "startFrame": 747,
+          "endFrame": 751
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 753,
+      "endFrame": 758,
+      "words": [
+        {
+          "text": "que",
+          "startFrame": 753,
+          "endFrame": 755
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 757,
+      "endFrame": 762,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 757,
+          "endFrame": 759
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 761,
+      "endFrame": 774,
+      "words": [
+        {
+          "text": "silence",
+          "startFrame": 761,
+          "endFrame": 771
+        }
+      ],
+      "accent": "silence"
+    },
+    {
+      "startFrame": 772,
+      "endFrame": 793,
+      "words": [
+        {
+          "text": "existe.",
+          "startFrame": 772,
+          "endFrame": 790
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 801,
+      "endFrame": 817,
+      "words": [
+        {
+          "text": "Puis",
+          "startFrame": 801,
+          "endFrame": 814
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 815,
+      "endFrame": 823,
+      "words": [
+        {
+          "text": "un",
+          "startFrame": 815,
+          "endFrame": 820
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 822,
+      "endFrame": 830,
+      "words": [
+        {
+          "text": "seul",
+          "startFrame": 822,
+          "endFrame": 827
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 829,
+      "endFrame": 837,
+      "words": [
+        {
+          "text": "son",
+          "startFrame": 829,
+          "endFrame": 834
+        }
+      ],
+      "accent": "son"
+    },
+    {
+      "startFrame": 835,
+      "endFrame": 854,
+      "words": [
+        {
+          "text": "suffit.",
+          "startFrame": 835,
+          "endFrame": 851
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 856,
+      "endFrame": 863,
+      "words": [
+        {
+          "text": "Un",
+          "startFrame": 856,
+          "endFrame": 860
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 861,
+      "endFrame": 880,
+      "words": [
+        {
+          "text": "craquement.",
+          "startFrame": 861,
+          "endFrame": 877
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 885,
+      "endFrame": 892,
+      "words": [
+        {
+          "text": "Et",
+          "startFrame": 885,
+          "endFrame": 889
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 890,
+      "endFrame": 896,
+      "words": [
+        {
+          "text": "tout",
+          "startFrame": 890,
+          "endFrame": 893
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 894,
+      "endFrame": 915,
+      "words": [
+        {
+          "text": "bascule.",
+          "startFrame": 894,
+          "endFrame": 912
+        }
+      ],
+      "accent": "bascule"
+    },
+    {
+      "startFrame": 916,
+      "endFrame": 924,
+      "words": [
+        {
+          "text": "Les",
+          "startFrame": 916,
+          "endFrame": 921
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 922,
+      "endFrame": 934,
+      "words": [
+        {
+          "text": "meilleurs",
+          "startFrame": 922,
+          "endFrame": 931
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 932,
+      "endFrame": 943,
+      "words": [
+        {
+          "text": "films",
+          "startFrame": 932,
+          "endFrame": 940
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 941,
+      "endFrame": 952,
+      "words": [
+        {
+          "text": "coupent",
+          "startFrame": 941,
+          "endFrame": 949
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 949,
+      "endFrame": 955,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 949,
+          "endFrame": 952
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 954,
+      "endFrame": 963,
+      "words": [
+        {
+          "text": "son",
+          "startFrame": 954,
+          "endFrame": 960
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 964,
+      "endFrame": 977,
+      "words": [
+        {
+          "text": "juste",
+          "startFrame": 964,
+          "endFrame": 974
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 974,
+      "endFrame": 987,
+      "words": [
+        {
+          "text": "avant.",
+          "startFrame": 974,
+          "endFrame": 984
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 990,
+      "endFrame": 996,
+      "words": [
+        {
+          "text": "La",
+          "startFrame": 990,
+          "endFrame": 993
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 995,
+      "endFrame": 1009,
+      "words": [
+        {
+          "text": "prochaine",
+          "startFrame": 995,
+          "endFrame": 1006
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1007,
+      "endFrame": 1020,
+      "words": [
+        {
+          "text": "fois,",
+          "startFrame": 1007,
+          "endFrame": 1017
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1022,
+      "endFrame": 1032,
+      "words": [
+        {
+          "text": "baisse",
+          "startFrame": 1022,
+          "endFrame": 1029
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1030,
+      "endFrame": 1035,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 1030,
+          "endFrame": 1032
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1033,
+      "endFrame": 1050,
+      "words": [
+        {
+          "text": "volume.",
+          "startFrame": 1033,
+          "endFrame": 1047
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1053,
+      "endFrame": 1061,
+      "words": [
+        {
+          "text": "Tu",
+          "startFrame": 1053,
+          "endFrame": 1058
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1060,
+      "endFrame": 1074,
+      "words": [
+        {
+          "text": "entendras",
+          "startFrame": 1060,
+          "endFrame": 1071
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1072,
+      "endFrame": 1077,
+      "words": [
+        {
+          "text": "le",
+          "startFrame": 1072,
+          "endFrame": 1074
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1076,
+      "endFrame": 1089,
+      "words": [
+        {
+          "text": "silence",
+          "startFrame": 1076,
+          "endFrame": 1086
+        }
+      ],
+      "accent": "silence"
+    },
+    {
+      "startFrame": 1086,
+      "endFrame": 1104,
+      "words": [
+        {
+          "text": "arriver.",
+          "startFrame": 1086,
+          "endFrame": 1101
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1107,
+      "endFrame": 1120,
+      "words": [
+        {
+          "text": "Commente",
+          "startFrame": 1107,
+          "endFrame": 1117
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1118,
+      "endFrame": 1136,
+      "words": [
+        {
+          "text": "silence,",
+          "startFrame": 1118,
+          "endFrame": 1133
+        }
+      ],
+      "accent": "silence"
+    },
+    {
+      "startFrame": 1138,
+      "endFrame": 1144,
+      "words": [
+        {
+          "text": "je",
+          "startFrame": 1138,
+          "endFrame": 1141
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1143,
+      "endFrame": 1154,
+      "words": [
+        {
+          "text": "t'envoie",
+          "startFrame": 1143,
+          "endFrame": 1151
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1151,
+      "endFrame": 1157,
+      "words": [
+        {
+          "text": "la",
+          "startFrame": 1151,
+          "endFrame": 1154
+        }
+      ],
+      "accent": null
+    },
+    {
+      "startFrame": 1155,
+      "endFrame": 1175,
+      "words": [
+        {
+          "text": "fiche.",
+          "startFrame": 1155,
+          "endFrame": 1172
+        }
+      ],
+      "accent": null
+    }
+  ],
+  "invertAtFrame": 892,
+  "sfx": [
+    {
+      "name": "sub-hit",
+      "frame": 68,
+      "gainDb": -7,
+      "pan": 0
+    },
+    {
+      "name": "whoosh-soft",
+      "frame": 88,
+      "gainDb": -16,
+      "pan": 0
+    },
+    {
+      "name": "whoosh-soft",
+      "frame": 165,
+      "gainDb": -18,
+      "pan": 0
+    },
+    {
+      "name": "whoosh-soft",
+      "frame": 254,
+      "gainDb": -15,
+      "pan": 0
+    },
+    {
+      "name": "tick",
+      "frame": 324,
+      "gainDb": -16,
+      "pan": 0
+    },
+    {
+      "name": "whoosh-hard",
+      "frame": 381,
+      "gainDb": -12,
+      "pan": 0
+    },
+    {
+      "name": "tick",
+      "frame": 534,
+      "gainDb": -18,
+      "pan": 0
+    },
+    {
+      "name": "riser-reverse",
+      "frame": 574,
+      "gainDb": -12,
+      "pan": 0
+    },
+    {
+      "name": "downlifter",
+      "frame": 640,
+      "gainDb": -14,
+      "pan": 0
+    },
+    {
+      "name": "riser-reverse",
+      "frame": 708,
+      "gainDb": -13,
+      "pan": 0
+    },
+    {
+      "name": "tick",
+      "frame": 829,
+      "gainDb": -10,
+      "pan": 0
+    },
+    {
+      "name": "sub-hit",
+      "frame": 894,
+      "gainDb": -6,
+      "pan": 0
+    },
+    {
+      "name": "shimmer",
+      "frame": 894,
+      "gainDb": -16,
+      "pan": 0
+    },
+    {
+      "name": "whoosh-soft",
+      "frame": 913,
+      "gainDb": -18,
+      "pan": 0
+    },
+    {
+      "name": "downlifter",
+      "frame": 987,
+      "gainDb": -16,
+      "pan": 0
+    },
+    {
+      "name": "sub-hit",
+      "frame": 1076,
+      "gainDb": -10,
+      "pan": 0
+    },
+    {
+      "name": "tick",
+      "frame": 1118,
+      "gainDb": -12,
+      "pan": 0
+    }
+  ]
+}
