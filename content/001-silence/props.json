@@ -222,8 +222,8 @@
       "durationInFrames": 69,
       "text": "Puis un seul son suffit.",
       "broll": {
-        "kind": "none",
-        "src": null,
+        "kind": "video",
+        "src": "content/001-silence/broll/s11.mp4",
         "kenBurns": "in"
       },
       "enter": {
@@ -243,8 +243,8 @@
       "durationInFrames": 74,
       "text": "Un craquement. Et tout bascule.",
       "broll": {
-        "kind": "none",
-        "src": null,
+        "kind": "video",
+        "src": "content/001-silence/broll/s12.mp4",
         "kenBurns": "in"
       },
       "enter": {

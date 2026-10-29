@@ -123,7 +123,7 @@ for (let index = 0; index < config.scenes.length; index++) {
       '-i',
       rawFile,
       '-vf',
-      'scale=-2:1920,crop=1080:1920,setsar=1,fps=30',
+      'scale=-2:1920,crop=1080:1920,setsar=1,fps=30,eq=brightness=0.35:contrast=1.15',
       '-an',
       '-c:v',
       'libx264',
