@@ -1,0 +1,612 @@
+{
+  "text": "Le moment le plus angoissant d'un film, c'est souvent le silence. Pas la musique. Pas le cri. Le vide. Un bruit constant devient un fond, et ton cerveau l'ignore. Coupe ce fond, et il cherche ce qui manque. C'est là qu'il commence à imaginer. Une porte. Un pas. Quelque chose derrière toi. Le silence ne montre rien. Ton cerveau fait le travail. Mais il ne marche que s'il est préparé. Trop de vide, et l'oreille décroche. Il faut du bruit avant, pour que le silence existe. Puis un seul son suffit. Un craquement. Et tout bascule. Les meilleurs films coupent le son juste avant. La prochaine fois, baisse le volume. Tu entendras le silence arriver. Commente silence, je t'envoie la fiche.",
+  "voiceId": "VuCZnF3MFlSeaM1I9wsG",
+  "model": "eleven_multilingual_v2",
+  "words": [
+    {
+      "text": "Le",
+      "startMs": 0,
+      "endMs": 151
+    },
+    {
+      "text": "moment",
+      "startMs": 186,
+      "endMs": 418
+    },
+    {
+      "text": "le",
+      "startMs": 441,
+      "endMs": 511
+    },
+    {
+      "text": "plus",
+      "startMs": 557,
+      "endMs": 708
+    },
+    {
+      "text": "angoissant",
+      "startMs": 766,
+      "endMs": 1126
+    },
+    {
+      "text": "d'un",
+      "startMs": 1149,
+      "endMs": 1254
+    },
+    {
+      "text": "film,",
+      "startMs": 1277,
+      "endMs": 1637
+    },
+    {
+      "text": "c'est",
+      "startMs": 1683,
+      "endMs": 1869
+    },
+    {
+      "text": "souvent",
+      "startMs": 1892,
+      "endMs": 2148
+    },
+    {
+      "text": "le",
+      "startMs": 2171,
+      "endMs": 2229
+    },
+    {
+      "text": "silence.",
+      "startMs": 2276,
+      "endMs": 2868
+    },
+    {
+      "text": "Pas",
+      "startMs": 3019,
+      "endMs": 3181
+    },
+    {
+      "text": "la",
+      "startMs": 3204,
+      "endMs": 3262
+    },
+    {
+      "text": "musique.",
+      "startMs": 3320,
+      "endMs": 3808
+    },
+    {
+      "text": "Pas",
+      "startMs": 3901,
+      "endMs": 4063
+    },
+    {
+      "text": "le",
+      "startMs": 4098,
+      "endMs": 4180
+    },
+    {
+      "text": "cri.",
+      "startMs": 4214,
+      "endMs": 4586
+    },
+    {
+      "text": "Le",
+      "startMs": 4737,
+      "endMs": 4853
+    },
+    {
+      "text": "vide.",
+      "startMs": 4911,
+      "endMs": 5306
+    },
+    {
+      "text": "Un",
+      "startMs": 5584,
+      "endMs": 5712
+    },
+    {
+      "text": "bruit",
+      "startMs": 5747,
+      "endMs": 5933
+    },
+    {
+      "text": "constant",
+      "startMs": 5968,
+      "endMs": 6339
+    },
+    {
+      "text": "devient",
+      "startMs": 6374,
+      "endMs": 6641
+    },
+    {
+      "text": "un",
+      "startMs": 6711,
+      "endMs": 6757
+    },
+    {
+      "text": "fond,",
+      "startMs": 6827,
+      "endMs": 7117
+    },
+    {
+      "text": "et",
+      "startMs": 7175,
+      "endMs": 7291
+    },
+    {
+      "text": "ton",
+      "startMs": 7326,
+      "endMs": 7442
+    },
+    {
+      "text": "cerveau",
+      "startMs": 7477,
+      "endMs": 7802
+    },
+    {
+      "text": "l'ignore.",
+      "startMs": 7837,
+      "endMs": 8359
+    },
+    {
+      "text": "Coupe",
+      "startMs": 8568,
+      "endMs": 8835
+    },
+    {
+      "text": "ce",
+      "startMs": 8858,
+      "endMs": 8963
+    },
+    {
+      "text": "fond,",
+      "startMs": 9021,
+      "endMs": 9323
+    },
+    {
+      "text": "et",
+      "startMs": 9497,
+      "endMs": 9613
+    },
+    {
+      "text": "il",
+      "startMs": 9648,
+      "endMs": 9718
+    },
+    {
+      "text": "cherche",
+      "startMs": 9787,
+      "endMs": 10043
+    },
+    {
+      "text": "ce",
+      "startMs": 10089,
+      "endMs": 10170
+    },
+    {
+      "text": "qui",
+      "startMs": 10217,
+      "endMs": 10310
+    },
+    {
+      "text": "manque.",
+      "startMs": 10368,
+      "endMs": 10751
+    },
+    {
+      "text": "C'est",
+      "startMs": 10902,
+      "endMs": 11099
+    },
+    {
+      "text": "là",
+      "startMs": 11122,
+      "endMs": 11215
+    },
+    {
+      "text": "qu'il",
+      "startMs": 11262,
+      "endMs": 11401
+    },
+    {
+      "text": "commence",
+      "startMs": 11447,
+      "endMs": 11784
+    },
+    {
+      "text": "à",
+      "startMs": 11807,
+      "endMs": 11830
+    },
+    {
+      "text": "imaginer.",
+      "startMs": 11912,
+      "endMs": 12527
+    },
+    {
+      "text": "Une",
+      "startMs": 12806,
+      "endMs": 13015
+    },
+    {
+      "text": "porte.",
+      "startMs": 13049,
+      "endMs": 13584
+    },
+    {
+      "text": "Un",
+      "startMs": 13700,
+      "endMs": 13827
+    },
+    {
+      "text": "pas.",
+      "startMs": 13885,
+      "endMs": 14222
+    },
+    {
+      "text": "Quelque",
+      "startMs": 14501,
+      "endMs": 14814
+    },
+    {
+      "text": "chose",
+      "startMs": 14837,
+      "endMs": 15046
+    },
+    {
+      "text": "derrière",
+      "startMs": 15070,
+      "endMs": 15360
+    },
+    {
+      "text": "toi.",
+      "startMs": 15383,
+      "endMs": 15778
+    },
+    {
+      "text": "Le",
+      "startMs": 16103,
+      "endMs": 16231
+    },
+    {
+      "text": "silence",
+      "startMs": 16277,
+      "endMs": 16649
+    },
+    {
+      "text": "ne",
+      "startMs": 16672,
+      "endMs": 16730
+    },
+    {
+      "text": "montre",
+      "startMs": 16776,
+      "endMs": 17020
+    },
+    {
+      "text": "rien.",
+      "startMs": 17078,
+      "endMs": 17450
+    },
+    {
+      "text": "Ton",
+      "startMs": 17659,
+      "endMs": 17833
+    },
+    {
+      "text": "cerveau",
+      "startMs": 17891,
+      "endMs": 18193
+    },
+    {
+      "text": "fait",
+      "startMs": 18239,
+      "endMs": 18344
+    },
+    {
+      "text": "le",
+      "startMs": 18367,
+      "endMs": 18436
+    },
+    {
+      "text": "travail.",
+      "startMs": 18483,
+      "endMs": 19063
+    },
+    {
+      "text": "Mais",
+      "startMs": 19238,
+      "endMs": 19412
+    },
+    {
+      "text": "il",
+      "startMs": 19493,
+      "endMs": 19551
+    },
+    {
+      "text": "ne",
+      "startMs": 19597,
+      "endMs": 19667
+    },
+    {
+      "text": "marche",
+      "startMs": 19725,
+      "endMs": 19992
+    },
+    {
+      "text": "que",
+      "startMs": 20050,
+      "endMs": 20190
+    },
+    {
+      "text": "s'il",
+      "startMs": 20236,
+      "endMs": 20387
+    },
+    {
+      "text": "est",
+      "startMs": 20433,
+      "endMs": 20503
+    },
+    {
+      "text": "préparé.",
+      "startMs": 20538,
+      "endMs": 21234
+    },
+    {
+      "text": "Trop",
+      "startMs": 21443,
+      "endMs": 21722
+    },
+    {
+      "text": "de",
+      "startMs": 21757,
+      "endMs": 21838
+    },
+    {
+      "text": "vide,",
+      "startMs": 21885,
+      "endMs": 22245
+    },
+    {
+      "text": "et",
+      "startMs": 22337,
+      "endMs": 22477
+    },
+    {
+      "text": "l'oreille",
+      "startMs": 22512,
+      "endMs": 22825
+    },
+    {
+      "text": "décroche.",
+      "startMs": 22848,
+      "endMs": 23522
+    },
+    {
+      "text": "Il",
+      "startMs": 23696,
+      "endMs": 23835
+    },
+    {
+      "text": "faut",
+      "startMs": 23916,
+      "endMs": 24032
+    },
+    {
+      "text": "du",
+      "startMs": 24056,
+      "endMs": 24137
+    },
+    {
+      "text": "bruit",
+      "startMs": 24183,
+      "endMs": 24381
+    },
+    {
+      "text": "avant,",
+      "startMs": 24416,
+      "endMs": 24810
+    },
+    {
+      "text": "pour",
+      "startMs": 24903,
+      "endMs": 25042
+    },
+    {
+      "text": "que",
+      "startMs": 25101,
+      "endMs": 25182
+    },
+    {
+      "text": "le",
+      "startMs": 25228,
+      "endMs": 25298
+    },
+    {
+      "text": "silence",
+      "startMs": 25356,
+      "endMs": 25704
+    },
+    {
+      "text": "existe.",
+      "startMs": 25727,
+      "endMs": 26331
+    },
+    {
+      "text": "Puis",
+      "startMs": 26714,
+      "endMs": 27121
+    },
+    {
+      "text": "un",
+      "startMs": 27179,
+      "endMs": 27330
+    },
+    {
+      "text": "seul",
+      "startMs": 27411,
+      "endMs": 27573
+    },
+    {
+      "text": "son",
+      "startMs": 27643,
+      "endMs": 27794
+    },
+    {
+      "text": "suffit.",
+      "startMs": 27840,
+      "endMs": 28351
+    },
+    {
+      "text": "Un",
+      "startMs": 28525,
+      "endMs": 28665
+    },
+    {
+      "text": "craquement.",
+      "startMs": 28711,
+      "endMs": 29245
+    },
+    {
+      "text": "Et",
+      "startMs": 29489,
+      "endMs": 29617
+    },
+    {
+      "text": "tout",
+      "startMs": 29663,
+      "endMs": 29779
+    },
+    {
+      "text": "bascule.",
+      "startMs": 29803,
+      "endMs": 30395
+    },
+    {
+      "text": "Les",
+      "startMs": 30546,
+      "endMs": 30697
+    },
+    {
+      "text": "meilleurs",
+      "startMs": 30743,
+      "endMs": 31033
+    },
+    {
+      "text": "films",
+      "startMs": 31056,
+      "endMs": 31335
+    },
+    {
+      "text": "coupent",
+      "startMs": 31382,
+      "endMs": 31625
+    },
+    {
+      "text": "le",
+      "startMs": 31649,
+      "endMs": 31730
+    },
+    {
+      "text": "son",
+      "startMs": 31788,
+      "endMs": 32008
+    },
+    {
+      "text": "juste",
+      "startMs": 32125,
+      "endMs": 32450
+    },
+    {
+      "text": "avant.",
+      "startMs": 32473,
+      "endMs": 32798
+    },
+    {
+      "text": "La",
+      "startMs": 33007,
+      "endMs": 33111
+    },
+    {
+      "text": "prochaine",
+      "startMs": 33181,
+      "endMs": 33518
+    },
+    {
+      "text": "fois,",
+      "startMs": 33553,
+      "endMs": 33889
+    },
+    {
+      "text": "baisse",
+      "startMs": 34063,
+      "endMs": 34307
+    },
+    {
+      "text": "le",
+      "startMs": 34330,
+      "endMs": 34388
+    },
+    {
+      "text": "volume.",
+      "startMs": 34435,
+      "endMs": 34899
+    },
+    {
+      "text": "Tu",
+      "startMs": 35108,
+      "endMs": 35259
+    },
+    {
+      "text": "entendras",
+      "startMs": 35341,
+      "endMs": 35712
+    },
+    {
+      "text": "le",
+      "startMs": 35735,
+      "endMs": 35805
+    },
+    {
+      "text": "silence",
+      "startMs": 35851,
+      "endMs": 36188
+    },
+    {
+      "text": "arriver.",
+      "startMs": 36211,
+      "endMs": 36687
+    },
+    {
+      "text": "Commente",
+      "startMs": 36896,
+      "endMs": 37233
+    },
+    {
+      "text": "silence,",
+      "startMs": 37256,
+      "endMs": 37779
+    },
+    {
+      "text": "je",
+      "startMs": 37930,
+      "endMs": 38034
+    },
+    {
+      "text": "t'envoie",
+      "startMs": 38092,
+      "endMs": 38359
+    },
+    {
+      "text": "la",
+      "startMs": 38382,
+      "endMs": 38452
+    },
+    {
+      "text": "fiche.",
+      "startMs": 38510,
+      "endMs": 39056
+    }
+  ]
+}

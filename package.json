@@ -1,0 +1,37 @@
+{
+  "name": "vertical-explainer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "render": "remotion render Video",
+    "preview": "remotion render Video out/preview.mp4 --scale=0.5 --crf=28 --gl=swangle",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "tts": "node scripts/tts.mjs",
+    "sfx": "node scripts/sfx-gen.mjs",
+    "broll": "node scripts/fetch-broll.mjs",
+    "props": "node scripts/build-props.mjs",
+    "mix": "node scripts/mix.mjs",
+    "qc": "node scripts/qc.mjs",
+    "video": "node scripts/pipeline.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "remotion": "4.0.539",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

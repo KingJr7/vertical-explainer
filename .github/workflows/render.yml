@@ -1,0 +1,53 @@
+name: Render explainer video
+
+on:
+  workflow_dispatch:
+    inputs:
+      content:
+        description: 'Content folder (e.g. 001-silence)'
+        default: '001-silence'
+      scale:
+        description: 'Render scale (0.5 preview, 1 full)'
+        default: '1'
+  push:
+    paths:
+      - 'content/**'
+      - 'scripts/**'
+      - '.github/workflows/render.yml'
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run sfx
+      - name: Fetch B-roll
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        run: node scripts/fetch-broll.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+      - name: Generate voice
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: node scripts/tts.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+      - name: Build props
+        run: node scripts/build-props.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+      - name: Render
+        run: npx remotion render Video out/${{ github.event.inputs.content || '001-silence' }}.mp4 --props=content/${{ github.event.inputs.content || '001-silence' }}/props.json --gl=swangle --concurrency=2 --crf=22 --scale=${{ github.event.inputs.scale || '1' }}
+      - name: Mix audio
+        run: node scripts/mix.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+      - name: Mux
+        run: ffmpeg -y -i out/${{ github.event.inputs.content || '001-silence' }}.mp4 -i content/${{ github.event.inputs.content || '001-silence' }}/build/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -ar 48000 -movflags +faststart -shortest out/${{ github.event.inputs.content || '001-silence' }}-final.mp4
+      - name: QC
+        run: node scripts/qc.mjs --file out/${{ github.event.inputs.content || '001-silence' }}-final.mp4 --width 1080 --height 1920
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: video-${{ github.run_number }}
+          files: out/*-final.mp4
+          contents: write
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

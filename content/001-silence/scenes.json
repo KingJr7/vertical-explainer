@@ -1,0 +1,161 @@
+{
+  "id": "001-silence",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "seed": 7,
+  "overlap": 14,
+  "voice": {
+    "id": "VuCZnF3MFlSeaM1I9wsG",
+    "preferredId": "SomyDQQmnE7TsltdiDgp",
+    "model": "eleven_multilingual_v2",
+    "label": "TikTok story (fr)"
+  },
+  "scenes": [
+    {
+      "text": "Le moment le plus angoissant d'un film, c'est souvent le silence.",
+      "broll": "empty cinema dark screen",
+      "kenBurns": "in",
+      "accent": "silence",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "sub-hit", "at": "accent", "gainDb": -7 }],
+      "invert": false
+    },
+    {
+      "text": "Pas la musique. Pas le cri. Le vide.",
+      "broll": null,
+      "accent": "vide",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "whoosh-soft", "at": "start", "gainDb": -16 }],
+      "invert": false
+    },
+    {
+      "text": "Un bruit constant devient un fond, et ton cerveau l'ignore.",
+      "broll": "audio waveform screen",
+      "kenBurns": "left",
+      "accent": null,
+      "enter": { "kind": "handoff", "dir": "left" },
+      "sfx": [{ "name": "whoosh-soft", "at": "start", "gainDb": -18 }],
+      "invert": false
+    },
+    {
+      "text": "Coupe ce fond, et il cherche ce qui manque.",
+      "broll": "flatline monitor screen",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "whoosh-soft", "at": "start", "gainDb": -15 }],
+      "invert": false
+    },
+    {
+      "text": "C'est là qu'il commence à imaginer.",
+      "broll": "silhouette doorway dark",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "tick", "at": "start", "gainDb": -16 }],
+      "invert": false
+    },
+    {
+      "text": "Une porte. Un pas. Quelque chose derrière toi.",
+      "broll": "door handle dark slow motion",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "whip", "dir": "left" },
+      "sfx": [{ "name": "whoosh-hard", "at": "start", "gainDb": -12 }],
+      "invert": false
+    },
+    {
+      "text": "Le silence ne montre rien. Ton cerveau fait le travail.",
+      "broll": "empty corridor dark",
+      "kenBurns": "left",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "tick", "at": "mid", "gainDb": -18 }],
+      "invert": false
+    },
+    {
+      "text": "Mais il ne marche que s'il est préparé.",
+      "broll": "volume knob close up",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "handoff", "dir": "up" },
+      "sfx": [{ "name": "riser-reverse", "at": "start", "gainDb": -12 }],
+      "invert": false
+    },
+    {
+      "text": "Trop de vide, et l'oreille décroche.",
+      "broll": "person headphones dark portrait",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "downlifter", "at": "start", "gainDb": -14 }],
+      "invert": false
+    },
+    {
+      "text": "Il faut du bruit avant, pour que le silence existe.",
+      "broll": "sound wave abstract",
+      "kenBurns": "out",
+      "accent": "silence",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "riser-reverse", "at": "start", "gainDb": -13 }],
+      "invert": false
+    },
+    {
+      "text": "Puis un seul son suffit.",
+      "broll": "single light bulb dark",
+      "kenBurns": "in",
+      "accent": "son",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "tick", "at": "accent", "gainDb": -10 }],
+      "invert": false
+    },
+    {
+      "text": "Un craquement. Et tout bascule.",
+      "broll": "film clapperboard",
+      "kenBurns": "in",
+      "accent": "bascule",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [
+        { "name": "sub-hit", "at": "accent", "gainDb": -6 },
+        { "name": "shimmer", "at": "accent", "gainDb": -16 }
+      ],
+      "invert": true
+    },
+    {
+      "text": "Les meilleurs films coupent le son juste avant.",
+      "broll": "film projector beam",
+      "kenBurns": "left",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "whoosh-soft", "at": "start", "gainDb": -18 }],
+      "invert": false
+    },
+    {
+      "text": "La prochaine fois, baisse le volume.",
+      "broll": "phone volume slider finger",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "handoff", "dir": "left" },
+      "sfx": [{ "name": "downlifter", "at": "start", "gainDb": -16 }],
+      "invert": false
+    },
+    {
+      "text": "Tu entendras le silence arriver.",
+      "broll": "empty cinema dark screen",
+      "kenBurns": "out",
+      "accent": "silence",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "sub-hit", "at": "accent", "gainDb": -10 }],
+      "invert": false
+    },
+    {
+      "text": "Commente silence, je t'envoie la fiche.",
+      "broll": null,
+      "accent": "silence",
+      "enter": { "kind": "handoff", "dir": "up" },
+      "sfx": [{ "name": "tick", "at": "accent", "gainDb": -12 }],
+      "invert": false
+    }
+  ]
+}

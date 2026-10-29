@@ -1,0 +1,15 @@
+node_modules/
+out/
+.cache/
+.env
+.env.*
+!.env.example
+
+public/content/
+public/fonts/*.tmp
+content/*/build/
+content/*/props.json
+
+*.log
+.DS_Store
+Thumbs.db
