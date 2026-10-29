@@ -1900,6 +1900,12 @@
       "frame": 1118,
       "gainDb": -12,
       "pan": 0
+    },
+    {
+      "name": "whoosh-hard",
+      "frame": 892,
+      "gainDb": -8,
+      "pan": 0
     }
   ]
 }
