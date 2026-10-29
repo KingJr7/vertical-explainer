@@ -69,7 +69,7 @@ const KenBurns: React.FC<{
     height: '100%',
     objectFit: 'cover',
     transform: `scale(${scale}) translateX(${x}px)`,
-    filter: 'grayscale(0.6) contrast(1.15) brightness(1.25)',
+    filter: 'grayscale(0.5) contrast(1.2) brightness(1.4)',
     opacity: loaded ? 1 : 0,
     transition: 'opacity 0.3s ease',
   };
@@ -134,7 +134,7 @@ export const BRoll: React.FC<{
       <AbsoluteFill
         style={{
           background:
-            'linear-gradient(180deg, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.02) 30%, rgba(0,0,0,0.08) 55%, rgba(0,0,0,0.3) 100%)',
+            'linear-gradient(180deg, rgba(0,0,0,0.08) 0%, rgba(0,0,0,0.01) 30%, rgba(0,0,0,0.04) 55%, rgba(0,0,0,0.2) 100%)',
         }}
       />
     </AbsoluteFill>
