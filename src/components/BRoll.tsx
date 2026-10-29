@@ -1,10 +1,12 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   AbsoluteFill,
   Img,
   OffthreadVideo,
   staticFile,
   useCurrentFrame,
+  delayRender,
+  continueRender,
 } from 'remotion';
 import type {BrollSpec} from '../types';
 import {TOKENS} from '../design/tokens';
@@ -15,7 +17,37 @@ const KenBurns: React.FC<{
   durationInFrames: number;
 }> = ({spec, durationInFrames}) => {
   const frame = useCurrentFrame();
-  const p = frame / Math.max(1, durationInFrames - 1);
+  const [handle] = useState(() => delayRender('Loading B-roll video'));
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    if (spec.src && spec.kind === 'video') {
+      const video = document.createElement('video');
+      video.src = staticFile(spec.src);
+      video.muted = true;
+      video.preload = 'auto';
+      
+      const onLoad = () => {
+        setLoaded(true);
+        continueRender(handle);
+      };
+      video.oncanplaythrough = onLoad;
+      video.onerror = () => {
+        console.error('Failed to load B-roll:', spec.src);
+        continueRender(handle);
+      };
+      video.load();
+      
+      return () => {
+        video.oncanplaythrough = null;
+        video.onerror = null;
+      };
+    } else {
+      continueRender(handle);
+    }
+  }, [handle, spec.src, spec.kind]);
+
+  const p = useCurrentFrame() / Math.max(1, durationInFrames - 1);
 
   const scale =
     spec.kenBurns === 'in'
@@ -38,6 +70,8 @@ const KenBurns: React.FC<{
     objectFit: 'cover',
     transform: `scale(${scale}) translateX(${x}px)`,
     filter: 'grayscale(1) contrast(1.06) brightness(0.9)',
+    opacity: loaded ? 1 : 0,
+    transition: 'opacity 0.3s ease',
   };
 
   if (!spec.src) return null;
