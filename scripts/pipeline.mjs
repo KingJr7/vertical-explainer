@@ -46,10 +46,13 @@ run(
 
 run('node', ['scripts/mix.mjs', '--id', id], {stdio: 'inherit'});
 
+const brightenedVideoFile = path.join(outDir, `${id}-video${suffix}-bright.mp4`);
+run('node', ['scripts/brighten.mjs', '--input', videoFile, '--output', brightenedVideoFile], {stdio: 'inherit'});
+
 run('ffmpeg', [
   '-y',
   '-i',
-  videoFile,
+  brightenedVideoFile,
   '-i',
   mixFile,
   '-map',
