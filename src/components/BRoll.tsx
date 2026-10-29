@@ -128,7 +128,8 @@ export const BRoll: React.FC<{
     );
   }
 
-<AbsoluteFill style={{overflow: 'hidden'}}>
+  return (
+    <AbsoluteFill style={{overflow: 'hidden'}}>
       <KenBurns spec={spec} durationInFrames={durationInFrames} />
     </AbsoluteFill>
   );
