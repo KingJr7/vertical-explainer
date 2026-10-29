@@ -10,6 +10,59 @@ import type {BrollSpec} from '../types';
 import {TOKENS} from '../design/tokens';
 import {FONT_FAMILY} from '../fonts';
 
+const Art: React.FC<{seed: string}> = ({seed}) => {
+  const frame = useCurrentFrame();
+  const lines = seed
+    .split('')
+    .map((ch, i) => ({ch, len: 20 + ((i * 7) % 40), delay: i * 2}))
+    .filter((l) => l.len > 0);
+
+  const total = lines.length * 14;
+  const progress = Math.min(1, frame / 20);
+
+  return (
+    <svg
+      width="100%"
+      height="100%"
+      viewBox="0 0 1080 1920"
+      preserveAspectRatio="xMidYMid slice"
+      style={{position: 'absolute', inset: 0, overflow: 'hidden'}}
+    >
+      <defs>
+        <linearGradient id={`art-${seed}`} x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stopColor="#F4F4F0" />
+          <stop offset="100%" stopColor="#F4F4F0" />
+        </linearGradient>
+      </defs>
+      {lines.map((line, i) => {
+        const drawEnd = line.delay + line.len;
+        const drawP = Math.min(1, Math.max(0, (frame - line.delay) / line.len));
+        const visible = frame >= line.delay;
+        const len = line.len * (1 - drawP);
+        const x2 = 540 + ((i * 137) % 300) - len / 2;
+        const y2 = 960 + ((i * 89) % 600) - len / 2;
+        const x1 = x2 - len;
+        const y1 = y2 - len;
+        return (
+          <line
+            key={i}
+            x1={x1}
+            y1={y1}
+            x2={x2}
+            y2={y2}
+            stroke={`url(#art-${seed})`}
+            strokeWidth={10}
+            strokeLinecap="round"
+            strokeDasharray={line.len}
+            strokeDashoffset={visible ? line.len * (1 - drawP) : line.len}
+            opacity={visible ? 0.9 : 0}
+          />
+        );
+      })}
+    </svg>
+  );
+};
+
 const KenBurns: React.FC<{
   spec: BrollSpec;
   durationInFrames: number;
@@ -56,7 +109,7 @@ export const BRoll: React.FC<{
   durationInFrames: number;
   index: number;
 }> = ({spec, durationInFrames, index}) => {
-  if (spec.kind === 'none' || !spec.src) {
+  if (spec.kind === 'none') {
     return (
       <AbsoluteFill
         style={{
@@ -90,6 +143,28 @@ export const BRoll: React.FC<{
             opacity: 0.16,
           }}
         />
+      </AbsoluteFill>
+    );
+  }
+
+  if (spec.kind === 'art') {
+    return (
+      <AbsoluteFill style={{backgroundColor: TOKENS.bg}}>
+        <AbsoluteFill
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            width: '86%',
+            height: '74%',
+            transform: 'translate(-50%, -50%)',
+            borderRadius: 36,
+            overflow: 'hidden',
+            backgroundColor: '#000',
+          }}
+        >
+          <Art seed={spec.art ?? 'line-art'} />
+        </AbsoluteFill>
       </AbsoluteFill>
     );
   }

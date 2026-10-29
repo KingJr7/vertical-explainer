@@ -7,9 +7,10 @@ export interface Transition {
 }
 
 export interface BrollSpec {
-  kind: 'video' | 'image' | 'none';
+  kind: 'video' | 'image' | 'none' | 'art';
   src: string | null;
   kenBurns: 'in' | 'out' | 'left' | 'right';
+  art?: string | null;
 }
 
 export interface SceneSpec {
