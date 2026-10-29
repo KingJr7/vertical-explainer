@@ -37,6 +37,12 @@ jobs:
         run: ffmpeg -y -i out/${{ github.event.inputs.content || '001-silence' }}.mp4 -i content/${{ github.event.inputs.content || '001-silence' }}/build/mix.wav -map 0:v:0 -map 1:a:0 -c:v copy -c:a aac -b:a 192k -ar 48000 -movflags +faststart -shortest out/${{ github.event.inputs.content || '001-silence' }}-final.mp4
       - name: QC
         run: node scripts/qc.mjs --file out/${{ github.event.inputs.content || '001-silence' }}-final.mp4 --width 1080 --height 1920
+      - name: Upload final video
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.content || '001-silence' }}-final
+          path: out/${{ github.event.inputs.content || '001-silence' }}-final.mp4
+          retention-days: 7
       - uses: softprops/action-gh-release@v2
         with:
           tag_name: video-${{ github.run_number }}
