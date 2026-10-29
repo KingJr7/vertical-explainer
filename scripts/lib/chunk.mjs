@@ -2,8 +2,8 @@ const SENTENCE_END = /[.!?…:]$/;
 
 export function chunkWords(words, options = {}) {
   const {
-    minWords = 3,
-    maxWords = 5,
+    minWords = 1,
+    maxWords = 1,
     maxMs = 1500,
     gapMs = 320,
     fps = 30,
