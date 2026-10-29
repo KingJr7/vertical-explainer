@@ -25,15 +25,8 @@ jobs:
           node-version: 24
           cache: 'npm'
       - run: npm ci
+      - run: sudo apt update && sudo apt install -y ffmpeg
       - run: npm run sfx
-      - name: Fetch B-roll
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
-        run: node scripts/fetch-broll.mjs --id ${{ github.event.inputs.content || '001-silence' }}
-      - name: Generate voice
-        env:
-          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
-        run: node scripts/tts.mjs --id ${{ github.event.inputs.content || '001-silence' }}
       - name: Build props
         run: node scripts/build-props.mjs --id ${{ github.event.inputs.content || '001-silence' }}
       - name: Render
