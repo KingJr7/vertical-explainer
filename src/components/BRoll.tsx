@@ -95,8 +95,22 @@ export const BRoll: React.FC<{
   }
 
   return (
-    <AbsoluteFill style={{overflow: 'hidden'}}>
-      <KenBurns spec={spec} durationInFrames={durationInFrames} />
+    <AbsoluteFill style={{backgroundColor: TOKENS.bg}}>
+      <AbsoluteFill
+        style={{
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          width: '86%',
+          height: '74%',
+          transform: 'translate(-50%, -50%)',
+          borderRadius: 36,
+          overflow: 'hidden',
+          backgroundColor: '#000',
+        }}
+      >
+        <KenBurns spec={spec} durationInFrames={durationInFrames} />
+      </AbsoluteFill>
     </AbsoluteFill>
   );
 };
