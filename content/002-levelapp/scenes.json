@@ -1,0 +1,64 @@
+{
+  "id": "002-levelapp",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "seed": 11,
+  "overlap": 14,
+  "voice": {
+    "id": "VuCZnF3MFlSeaM1I9wsG",
+    "preferredId": "SomyDQQmnE7TsltdiDgp",
+    "model": "eleven_multilingual_v2",
+    "label": "TikTok story (fr)"
+  },
+  "scenes": [
+    {
+      "text": "Je n'ai rien lancé. J'ai juste ouvert une appli.",
+      "broll": "empty cinema dark screen",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "sub-hit", "at": "accent", "gainDb": -7 }],
+      "invert": false
+    },
+    {
+      "text": "J'ai passé des mois à vouloir lancer un business. Des produits, des idées, des montages. Puis j'ai trouvé LevelApp.",
+      "broll": "audio waveform screen",
+      "kenBurns": "left",
+      "accent": null,
+      "enter": { "kind": "handoff", "dir": "left" },
+      "sfx": [{ "name": "whoosh-soft", "at": "start", "gainDb": -18 }],
+      "invert": false
+    },
+    {
+      "text": "L'appli te donne la boutique en ligne. Avec des produits digitaux. T'as plus besoin de stock. Plus besoin de connaissances. Juste la boutique.",
+      "broll": "flatline monitor screen",
+      "kenBurns": "in",
+      "accent": "son",
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [
+        { "name": "whoosh-soft", "at": "start", "gainDb": -15 },
+        { "name": "whoosh-hard", "at": "accent", "gainDb": -12 }
+      ],
+      "invert": true
+    },
+    {
+      "text": "Et puis, le parrainnage. Les micro-tâches. De l'argent sans rien faire. Sans vendre.",
+      "broll": "silhouette doorway dark",
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "whip", "dir": "left" },
+      "sfx": [{ "name": "whoosh-hard", "at": "start", "gainDb": -12 }],
+      "invert": false
+    },
+    {
+      "text": "Et moi, perso, je n'ai rien fait.",
+      "broll": null,
+      "kenBurns": "in",
+      "accent": null,
+      "enter": { "kind": "push", "dir": "up" },
+      "sfx": [{ "name": "tick", "at": "start", "gainDb": -16 }],
+      "invert": false
+    }
+  ]
+}

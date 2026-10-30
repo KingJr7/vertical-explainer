@@ -1,0 +1,15 @@
+{
+  "hash": "77a942b6c574f8aa68bdf33a89c60a72b7cdce96921b16ffd1146b3d5a8bc81b",
+  "voiceId": "VuCZnF3MFlSeaM1I9wsG",
+  "model": "eleven_multilingual_v2",
+  "settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0,
+    "use_speaker_boost": true
+  },
+  "durationMs": 22465,
+  "chars": 426,
+  "words": 71,
+  "createdAt": "2026-10-29T22:08:42.763Z"
+}

@@ -27,8 +27,14 @@ jobs:
       - run: npm ci
       - run: sudo apt update && sudo apt install -y ffmpeg
       - run: npm run sfx
+      - name: Fetch b-roll
+        run: node scripts/fetch-broll.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       - name: Build props
         run: node scripts/build-props.mjs --id ${{ github.event.inputs.content || '001-silence' }}
+      - name: Patch duration
+        run: node -e "const fs=require('fs'); const p='content/${{ github.event.inputs.content || '001-silence' }}/props.json'; const d=JSON.parse(fs.readFileSync(p,'utf8')); const last=d.scenes[d.scenes.length-1]; last.durationInFrames=900-last.startFrame; d.durationInFrames=900; fs.writeFileSync(p, JSON.stringify(d,null,2)+'\n'); console.log('patched duration', d.durationInFrames);"
       - name: Render
         run: npx remotion render Video out/${{ github.event.inputs.content || '001-silence' }}.mp4 --props=content/${{ github.event.inputs.content || '001-silence' }}/props.json --gl=swangle --concurrency=2 --crf=22 --scale=${{ github.event.inputs.scale || '1' }}
       - name: Mix audio

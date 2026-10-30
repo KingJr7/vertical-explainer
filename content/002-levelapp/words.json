@@ -1,0 +1,362 @@
+{
+  "text": "Je n'ai rien lancé. J'ai juste ouvert une appli. J'ai passé des mois à vouloir lancer un business. Des produits, des idées, des montages. Puis j'ai trouvé LevelApp. L'appli te donne la boutique en ligne. Avec des produits digitaux. T'as plus besoin de stock. Plus besoin de connaissances. Juste la boutique. Et puis, le parrainnage. Les micro-tâches. De l'argent sans rien faire. Sans vendre. Et moi, perso, je n'ai rien fait.",
+  "voiceId": "VuCZnF3MFlSeaM1I9wsG",
+  "model": "eleven_multilingual_v2",
+  "words": [
+    {
+      "text": "Je",
+      "startMs": 0,
+      "endMs": 139
+    },
+    {
+      "text": "n'ai",
+      "startMs": 186,
+      "endMs": 279
+    },
+    {
+      "text": "rien",
+      "startMs": 302,
+      "endMs": 453
+    },
+    {
+      "text": "lancé.",
+      "startMs": 476,
+      "endMs": 964
+    },
+    {
+      "text": "J'ai",
+      "startMs": 1080,
+      "endMs": 1242
+    },
+    {
+      "text": "juste",
+      "startMs": 1300,
+      "endMs": 1567
+    },
+    {
+      "text": "ouvert",
+      "startMs": 1614,
+      "endMs": 1869
+    },
+    {
+      "text": "une",
+      "startMs": 1892,
+      "endMs": 1985
+    },
+    {
+      "text": "appli.",
+      "startMs": 2009,
+      "endMs": 2415
+    },
+    {
+      "text": "J'ai",
+      "startMs": 2543,
+      "endMs": 2694
+    },
+    {
+      "text": "passé",
+      "startMs": 2728,
+      "endMs": 2961
+    },
+    {
+      "text": "des",
+      "startMs": 3019,
+      "endMs": 3135
+    },
+    {
+      "text": "mois",
+      "startMs": 3158,
+      "endMs": 3344
+    },
+    {
+      "text": "à",
+      "startMs": 3379,
+      "endMs": 3413
+    },
+    {
+      "text": "vouloir",
+      "startMs": 3471,
+      "endMs": 3715
+    },
+    {
+      "text": "lancer",
+      "startMs": 3762,
+      "endMs": 4029
+    },
+    {
+      "text": "un",
+      "startMs": 4063,
+      "endMs": 4110
+    },
+    {
+      "text": "business.",
+      "startMs": 4145,
+      "endMs": 4621
+    },
+    {
+      "text": "Des",
+      "startMs": 4690,
+      "endMs": 4818
+    },
+    {
+      "text": "produits,",
+      "startMs": 4853,
+      "endMs": 5341
+    },
+    {
+      "text": "des",
+      "startMs": 5457,
+      "endMs": 5596
+    },
+    {
+      "text": "idées,",
+      "startMs": 5666,
+      "endMs": 6026
+    },
+    {
+      "text": "des",
+      "startMs": 6118,
+      "endMs": 6235
+    },
+    {
+      "text": "montages.",
+      "startMs": 6258,
+      "endMs": 6792
+    },
+    {
+      "text": "Puis",
+      "startMs": 6966,
+      "endMs": 7279
+    },
+    {
+      "text": "j'ai",
+      "startMs": 7396,
+      "endMs": 7523
+    },
+    {
+      "text": "trouvé",
+      "startMs": 7558,
+      "endMs": 7790
+    },
+    {
+      "text": "LevelApp.",
+      "startMs": 7825,
+      "endMs": 8394
+    },
+    {
+      "text": "L'appli",
+      "startMs": 8568,
+      "endMs": 8893
+    },
+    {
+      "text": "te",
+      "startMs": 8940,
+      "endMs": 9021
+    },
+    {
+      "text": "donne",
+      "startMs": 9067,
+      "endMs": 9218
+    },
+    {
+      "text": "la",
+      "startMs": 9242,
+      "endMs": 9288
+    },
+    {
+      "text": "boutique",
+      "startMs": 9346,
+      "endMs": 9671
+    },
+    {
+      "text": "en",
+      "startMs": 9694,
+      "endMs": 9741
+    },
+    {
+      "text": "ligne.",
+      "startMs": 9764,
+      "endMs": 10101
+    },
+    {
+      "text": "Avec",
+      "startMs": 10217,
+      "endMs": 10484
+    },
+    {
+      "text": "des",
+      "startMs": 10530,
+      "endMs": 10612
+    },
+    {
+      "text": "produits",
+      "startMs": 10635,
+      "endMs": 10925
+    },
+    {
+      "text": "digitaux.",
+      "startMs": 10948,
+      "endMs": 11448
+    },
+    {
+      "text": "T'as",
+      "startMs": 11541,
+      "endMs": 11703
+    },
+    {
+      "text": "plus",
+      "startMs": 11726,
+      "endMs": 11866
+    },
+    {
+      "text": "besoin",
+      "startMs": 11889,
+      "endMs": 12121
+    },
+    {
+      "text": "de",
+      "startMs": 12156,
+      "endMs": 12226
+    },
+    {
+      "text": "stock.",
+      "startMs": 12260,
+      "endMs": 12748
+    },
+    {
+      "text": "Plus",
+      "startMs": 12922,
+      "endMs": 13108
+    },
+    {
+      "text": "besoin",
+      "startMs": 13131,
+      "endMs": 13375
+    },
+    {
+      "text": "de",
+      "startMs": 13410,
+      "endMs": 13468
+    },
+    {
+      "text": "connaissances.",
+      "startMs": 13514,
+      "endMs": 14153
+    },
+    {
+      "text": "Juste",
+      "startMs": 14269,
+      "endMs": 14559
+    },
+    {
+      "text": "la",
+      "startMs": 14606,
+      "endMs": 14664
+    },
+    {
+      "text": "boutique.",
+      "startMs": 14710,
+      "endMs": 15233
+    },
+    {
+      "text": "Et",
+      "startMs": 15442,
+      "endMs": 15581
+    },
+    {
+      "text": "puis,",
+      "startMs": 15616,
+      "endMs": 15883
+    },
+    {
+      "text": "le",
+      "startMs": 16034,
+      "endMs": 16138
+    },
+    {
+      "text": "parrainnage.",
+      "startMs": 16185,
+      "endMs": 16788
+    },
+    {
+      "text": "Les",
+      "startMs": 16904,
+      "endMs": 17032
+    },
+    {
+      "text": "micro-tâches.",
+      "startMs": 17055,
+      "endMs": 17729
+    },
+    {
+      "text": "De",
+      "startMs": 17856,
+      "endMs": 17961
+    },
+    {
+      "text": "l'argent",
+      "startMs": 18019,
+      "endMs": 18321
+    },
+    {
+      "text": "sans",
+      "startMs": 18367,
+      "endMs": 18507
+    },
+    {
+      "text": "rien",
+      "startMs": 18530,
+      "endMs": 18646
+    },
+    {
+      "text": "faire.",
+      "startMs": 18692,
+      "endMs": 19075
+    },
+    {
+      "text": "Sans",
+      "startMs": 19354,
+      "endMs": 19563
+    },
+    {
+      "text": "vendre.",
+      "startMs": 19598,
+      "endMs": 20004
+    },
+    {
+      "text": "Et",
+      "startMs": 20248,
+      "endMs": 20376
+    },
+    {
+      "text": "moi,",
+      "startMs": 20422,
+      "endMs": 20701
+    },
+    {
+      "text": "perso,",
+      "startMs": 20817,
+      "endMs": 21374
+    },
+    {
+      "text": "je",
+      "startMs": 21490,
+      "endMs": 21595
+    },
+    {
+      "text": "n'ai",
+      "startMs": 21653,
+      "endMs": 21757
+    },
+    {
+      "text": "rien",
+      "startMs": 21781,
+      "endMs": 21908
+    },
+    {
+      "text": "fait.",
+      "startMs": 21978,
+      "endMs": 22431
+    }
+  ]
+}

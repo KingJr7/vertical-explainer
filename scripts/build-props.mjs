@@ -104,7 +104,14 @@ const scenes = config.scenes.map((scene, index) => {
     kenBurns: scene.kenBurns ?? 'in',
   };
 
-  if (source?.kind === 'video' && fs.existsSync(path.join(brollDir, `${sceneId}.mp4`))) {
+  if (source?.kind === 'art') {
+    broll = {
+      kind: 'art',
+      src: null,
+      kenBurns: scene.kenBurns ?? 'in',
+      art: source.art ?? scene.broll ?? null,
+    };
+  } else if (source?.kind === 'video' && fs.existsSync(path.join(brollDir, `${sceneId}.mp4`))) {
     fs.copyFileSync(
       path.join(brollDir, `${sceneId}.mp4`),
       path.join(publicBrollDir, `${sceneId}.mp4`),
